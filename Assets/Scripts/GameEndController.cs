@@ -12,7 +12,9 @@ public class GameEndController : MonoBehaviour{
 
     public void ChangeScene(){
         if(PlayerPrefs.GetInt(levelName1) == 1 && PlayerPrefs.GetInt(levelName2) == 1 && PlayerPrefs.GetInt(levelName3) == 1)
-            SceneManager.LoadScene(finalScreen);
+        {
+           SceneManager.LoadScene(finalScreen);
+        }
         else
             SceneManager.LoadScene(levelSelector);
     }
