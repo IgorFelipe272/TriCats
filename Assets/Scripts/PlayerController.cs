@@ -4,7 +4,8 @@ using UnityEditor.Animations;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour{
+public class PlayerController : MonoBehaviour
+{
     [SerializeField] private float moveSpeed;
     private GameEndController gameEndController;
     private Animator animator;
@@ -14,57 +15,66 @@ public class PlayerController : MonoBehaviour{
 
     private Rigidbody2D rb;
 
-    void Awake() {
+    void Awake()
+    {
         canMove = true;
         isFacingRight = true;
     }
 
-    void Start(){
+    void Start()
+    {
         rb = GetComponent<Rigidbody2D>();
         gameEndController = FindFirstObjectByType<GameEndController>();
         animator = GetComponent<Animator>();
     }
 
-    void Update(){
+    void Update()
+    {
         HandleMovement();
         HandleAnims();
     }
 
-    private void HandleMovement(){
-        if(!canMove)
+    private void HandleMovement()
+    {
+        if (!canMove)
             return;
 
         Vector2 moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         rb.velocity = moveDirection * moveSpeed;
 
-        if(rb.velocity.x > 0f){
+        if (rb.velocity.x > 0f)
+        {
             isMovingRight = true;
-        }else if(rb.velocity.x < 0f)
+        }
+        else if (rb.velocity.x < 0f)
             isMovingRight = false;
-        
-        if(isMovingRight != isFacingRight)
+
+        if (isMovingRight != isFacingRight)
             Flip();
     }
 
-    private void HandleAnims(){
-        if(rb.velocity.x != 0f)
+    private void HandleAnims()
+    {
+        if (rb.velocity.x != 0f)
             animator.SetBool("isMovX", true);
         else
             animator.SetBool("isMovX", false);
 
 
-        if(rb.velocity.y > 0f)
+        if (rb.velocity.y > 0f)
             animator.SetBool("isMovUp", true);
-        else if(rb.velocity.y < 0f)
+        else if (rb.velocity.y < 0f)
             animator.SetBool("isMovDown", true);
-        else{
+        else
+        {
             animator.SetBool("isMovUp", false);
             animator.SetBool("isMovDown", false);
         }
-           
+
     }
 
-    void Flip(){
+    void Flip()
+    {
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
@@ -72,8 +82,10 @@ public class PlayerController : MonoBehaviour{
         isFacingRight = !isFacingRight;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Portal")){
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Portal"))
+        {
             gameEndController.ChangeScene();
         }
     }
