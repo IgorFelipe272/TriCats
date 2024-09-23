@@ -93,19 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bed59155eb6de84fa2a767077db9463
-      internalID: 212287764
+      spriteID: a55fcf56c6afc354abcd2759b98f2704
+      internalID: 1442964791
       vertices: []
       indices: 
       edges: []
@@ -145,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb4d5eaac6f47d47be541f071340607
-      internalID: 91805759
+      spriteID: 84a4f872cc997c14f83e4b0908661ec7
+      internalID: -1563830561
       vertices: []
       indices: 
       edges: []
@@ -166,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94cfd1c748608c4bb505b1fef5bc5a0
-      internalID: -62420263
+      spriteID: 260b3c8476616ac4b892a930927ac904
+      internalID: 1694514019
       vertices: []
       indices: 
       edges: []
@@ -187,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeb0879e7a0c2cc4fb380ac73eb7b55c
-      internalID: 876229177
+      spriteID: 8ac921f9c027f384a95d72f18e942859
+      internalID: -1492019266
       vertices: []
       indices: 
       edges: []
@@ -208,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1f5e9a49c0b0a47bedc0eed07df213
-      internalID: -2031238281
+      spriteID: 6f6d568877cfbb04b892983d70e713d5
+      internalID: 861769313
       vertices: []
       indices: 
       edges: []
@@ -229,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d168d60d4e64254e9393b1138c04d3d
-      internalID: 2074807485
+      spriteID: b002813da5c293d4fb62c936a86ff12c
+      internalID: 519719452
       vertices: []
       indices: 
       edges: []
@@ -250,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 471e5806d18ad4049bd5ae9a4e584416
-      internalID: -1799997176
+      spriteID: 5cfe6fa9dbb32314fbea5358c8fb649b
+      internalID: -772320229
       vertices: []
       indices: 
       edges: []
@@ -271,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17d0f60a5d93dd34ca21cb29fd4b47e0
-      internalID: -1370645045
+      spriteID: aacf49972efb7fd468a0b36d084fd17f
+      internalID: 2112778382
       vertices: []
       indices: 
       edges: []
@@ -292,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89e4c48be5e4ced42b9895b43c8e89f8
-      internalID: -1146238545
+      spriteID: c44c0ca2ed1860d419278446ed79f561
+      internalID: 641149777
       vertices: []
       indices: 
       edges: []
@@ -313,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33581a0cf12837e44b3209cd9a08982e
-      internalID: 944449157
+      spriteID: 1a8a5eeb8954b5746b1ad00ccbf46934
+      internalID: 1074611175
       vertices: []
       indices: 
       edges: []
@@ -334,8 +321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03992a4fc3361ca4bab1c9a96694be7c
-      internalID: 1993233389
+      spriteID: dd649426389bb024a8e2dd61f842990c
+      internalID: -1532665193
       vertices: []
       indices: 
       edges: []
@@ -355,8 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a687581133dd65040af4ff3e5b12ef3f
-      internalID: -1721885140
+      spriteID: a2c701ec571befa4c9b0de83787fd1f6
+      internalID: -915535348
       vertices: []
       indices: 
       edges: []
@@ -376,8 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51604576e9a91cf438d0ba159650487d
-      internalID: -2016075095
+      spriteID: be3ce9b129caee1478122ee01e230cd1
+      internalID: -1306011481
       vertices: []
       indices: 
       edges: []
@@ -397,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6077e4779adb6c242bdba12d9303bbce
-      internalID: -680766900
+      spriteID: ed4505ea329fc4346b3c5192907d7dd8
+      internalID: 704437922
       vertices: []
       indices: 
       edges: []
@@ -418,8 +405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40e0e3244a701124d9f92df32bc6df0f
-      internalID: -84318629
+      spriteID: 05ddfa033e9dc8540ba0c9e227a2ec18
+      internalID: -1095695233
       vertices: []
       indices: 
       edges: []
@@ -435,21 +422,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gato preto parado-Sheet_0: 212287764
-      gato preto parado-Sheet_1: 91805759
-      gato preto parado-Sheet_10: 1993233389
-      gato preto parado-Sheet_11: -1721885140
-      gato preto parado-Sheet_12: -2016075095
-      gato preto parado-Sheet_13: -680766900
-      gato preto parado-Sheet_14: -84318629
-      gato preto parado-Sheet_2: -62420263
-      gato preto parado-Sheet_3: 876229177
-      gato preto parado-Sheet_4: -2031238281
-      gato preto parado-Sheet_5: 2074807485
-      gato preto parado-Sheet_6: -1799997176
-      gato preto parado-Sheet_7: -1370645045
-      gato preto parado-Sheet_8: -1146238545
-      gato preto parado-Sheet_9: 944449157
+      gato preto parado-Sheet_0: 1442964791
+      gato preto parado-Sheet_1: -1563830561
+      gato preto parado-Sheet_10: -1532665193
+      gato preto parado-Sheet_11: -915535348
+      gato preto parado-Sheet_12: -1306011481
+      gato preto parado-Sheet_13: 704437922
+      gato preto parado-Sheet_14: -1095695233
+      gato preto parado-Sheet_2: 1694514019
+      gato preto parado-Sheet_3: -1492019266
+      gato preto parado-Sheet_4: 861769313
+      gato preto parado-Sheet_5: 519719452
+      gato preto parado-Sheet_6: -772320229
+      gato preto parado-Sheet_7: 2112778382
+      gato preto parado-Sheet_8: 641149777
+      gato preto parado-Sheet_9: 1074611175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

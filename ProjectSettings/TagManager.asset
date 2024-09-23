@@ -8,6 +8,7 @@ TagManager:
   - Circulo
   - Portal
   - Danger
+  - manager
   layers:
   - Default
   - TransparentFX
