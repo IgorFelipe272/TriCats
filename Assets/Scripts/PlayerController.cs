@@ -88,5 +88,9 @@ public class PlayerController : MonoBehaviour
         {
             gameEndController.ChangeScene();
         }
+        if (other.CompareTag("Danger"))
+        {
+
+        }
     }
 }
